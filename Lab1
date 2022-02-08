@@ -1,1 +1,33 @@
 
+<!DOCTYPE html>
+
+<head>
+    
+    <title>Art Studio</title>
+
+</head>
+
+<nav>
+    <a href="Classes.html">Home</a>&nbsp;
+    <a href="Classes.html">Classes</a>&nbsp;
+    <a href="Instructors.html">Instructors</a>&nbsp;
+    <a href="Contact.html">Contact</a>&nbsp;
+</nav>
+
+    <h2>Classes</h2>
+
+    <div id= classeDsc>
+<body>
+    <ul>
+    
+        <li> Water Color Use water colors. Mr.Smith. Costs 20 dollars. Meet Monday and Thursday </li>
+        <li> Oil Color: Use oil colors. Mrs.Mawyer. Costs 30 dollars. Meet Tuesday and Friday</li>
+        <li> Paint: Use anything you want to paint. Mr.Lengyel. Costs 20 dollars. Meet Tuesday and Friday.</li>
+        <li> Sketch: Learn how to sketch. Mrs.Nelson. Costs 25 dollars. Meet Monday and Friday</li>
+        <li> Clay: Learn how to use clay to make things such as pottery. Mr.Walker. Costs 45 dollars. Meet Tuesday and Thursday</li>
+    
+    </ul>
+</body>
+    </div>
+
+<footer>  Copyright © 2022 Art Studio  </footer>
