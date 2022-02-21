@@ -133,3 +133,98 @@ function Repeat( message )
         console.log(message);
     }
 }
+
+//Homework below
+
+function multiply()
+{
+    var a = 25;
+    var b = 42;
+    var prod = a * b;
+    alert("Product is " + prod);
+}
+
+function divide()
+{
+    var a = 48;
+    var b = 12;
+    var div = a / b;
+    alert("Quotient is " + div);
+}
+
+function mean()
+{
+    var a = 25;
+    var b = 47;
+    var c = 98;
+    var d = 46;
+    var e = 52;
+
+    var mea = (a + b + c + d + e) / 5;
+    alert("Mean is " + mea);
+}
+
+function even(num)
+{
+    var count = 0;
+
+    for(var i=1;i<=200;i++)
+    {
+        if (i % num == 0)
+        {
+            count++;
+        }
+
+    }
+    alert("Total multiples for " + num + "=" + count);
+
+}
+
+function fibonacchi()
+    {
+    function fibo(num)
+    {
+        if(num==1)
+            return 0;
+
+        if(num==2)
+            return 1;
+
+        var num1=0;
+        var num2=1;
+        var sum;
+        var i=2;
+
+        while (i<num)  
+        {
+            sum=num1+num2;
+            num1=num2;
+            num2=sum;
+            i+=1;
+        }
+        return num2;
+    }
+
+        console.log(fibo(1));
+        console.log(fibo(2));
+        console.log(fibo(3));
+        console.log(fibo(4));
+        console.log(fibo(5));
+        console.log(fibo(6));
+        console.log(fibo(7));
+        console.log(fibo(0));
+        console.log(fibo(8));
+        console.log(fibo(9));
+        console.log(fibo(10));
+        console.log(fibo(12));
+        console.log(fibo(13));
+        console.log(fibo(14));
+        console.log(fibo(15));
+        console.log(fibo(16));
+        console.log(fibo(17));
+        console.log(fibo(18));
+        console.log(fibo(19));
+        console.log(fibo(20));
+    
+  
+    }
